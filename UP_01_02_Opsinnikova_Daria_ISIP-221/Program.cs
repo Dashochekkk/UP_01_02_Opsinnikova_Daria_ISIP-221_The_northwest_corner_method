@@ -127,7 +127,7 @@ namespace UP_01_02_Opsinnikova_Daria_ISIP_221
             }
             else
             {
-                Console.WriteLine("План не является оптимальным. Улучшение плана...");
+                Console.WriteLine("План не является оптимальным");
                 result = OptimizePlan(costs, result);
                 Console.WriteLine("\nОптимальный план:");
                 PrintPlan(result);
